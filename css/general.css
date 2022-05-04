@@ -1,3 +1,7 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -7,6 +11,46 @@ h6,
 p {
   margin: 0;
   padding: 0;
+}
+
+header {
+  border-bottom: 2px solid #ddd;
+}
+header .wrapper_img {
+  width: 100px;
+}
+header .info_text {
+  font-size: 25px;
+}
+header ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+header ul li {
+  font-weight: 600;
+  list-style-type: none;
+  padding: 0 0 10px;
+}
+header ul li:first-child {
+  margin-left: 0;
+}
+header ul li:last-child {
+  color: #3367d6 !important;
+  border-bottom: 3px solid #3367d6;
+}
+
+h2,
+h4 {
+  padding-top: 50px;
+}
+
+p {
+  padding-top: 25px;
+}
+
+li {
+  padding-top: 25px;
+  margin-left: 15px;
 }
 
 /*# sourceMappingURL=general.css.map */

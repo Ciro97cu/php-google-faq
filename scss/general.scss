@@ -1,1 +1,47 @@
-@import "./_resets.scss"
+@import "./_resets.scss";
+
+header {
+    border-bottom: 2px solid #ddd;
+
+    .wrapper_img {
+        width: 100px;
+    }
+
+    .info_text {
+        font-size: 25px;
+    }
+
+    ul {
+        margin-bottom: 0;
+        padding-left: 0;
+
+        li {
+            font-weight: 600;
+            list-style-type: none;
+            padding: 0 0 10px;
+        }
+
+        li:first-child {
+            margin-left: 0;
+        }
+
+        li:last-child {
+            color: #3367d6 !important;
+            border-bottom: 3px solid #3367d6;
+        }
+    }
+}
+
+h2,
+h4 {
+    padding-top: 50px;
+}
+
+p {
+    padding-top: 25px;
+}
+
+li {
+    padding-top: 25px;
+    margin-left: 15px;
+}
